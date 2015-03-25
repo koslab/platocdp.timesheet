@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 import os
 
-version = '0.1'
+version = '0.1a1'
 
 setup(name='platocdp.timesheet',
       version=version,
@@ -16,9 +16,9 @@ setup(name='platocdp.timesheet',
         "Topic :: Software Development :: Libraries :: Python Modules",
         ],
       keywords='',
-      author='Inigo Consulting',
-      author_email='team@inigo-tech.com',
-      url='http://github.com/inigoconsulting/',
+      author='KOSLAB Technologies',
+      author_email='izhar@koslab.org',
+      url='http://github.com/koslab/platocdp.timesheet',
       license='gpl',
       packages=find_packages(),
       namespace_packages=['platocdp'],
