@@ -37,9 +37,12 @@ class IActivity(form.Schema, IImageScaleTraversable):
             required=True
     )
 
-    resource = schema.Choice(title=_(u'Resource / Staff'),
+    resources = schema.List(
+            title=_(u'Resources / Staffs'),
             description=_(u''),
-            vocabulary='plone.app.vocabularies.Users',
+            value_type=schema.Choice(
+                vocabulary='plone.app.vocabularies.Users',
+            ),
             required=True
     )
 
